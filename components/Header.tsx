@@ -31,8 +31,8 @@ export default function Header() {
           flex items-center justify-between
           ${isScrolled && !isHero
                         ? isWhiteSection
-                            ? "mt-6 w-[95%] md:w-auto md:min-w-[800px] rounded-full bg-midnight/60 backdrop-blur-2xl backdrop-saturate-150 border border-white/20 shadow-2xl shadow-primary/20 px-8 py-4"
-                            : "mt-6 w-[95%] md:w-auto md:min-w-[800px] rounded-full bg-white/60 backdrop-blur-2xl backdrop-saturate-150 border border-primary/20 shadow-2xl shadow-primary/10 px-8 py-4"
+                            ? "mt-6 w-[95%] md:w-auto md:min-w-[800px] rounded-full bg-midnight/90 backdrop-blur-3xl backdrop-saturate-150 border border-white/30 shadow-2xl shadow-primary/30 px-8 py-4"
+                            : "mt-6 w-[95%] md:w-auto md:min-w-[800px] rounded-full bg-white/90 backdrop-blur-3xl backdrop-saturate-150 border border-primary/30 shadow-2xl shadow-primary/20 px-8 py-4"
                         : "mt-0 w-full max-w-none bg-transparent border-transparent px-6 md:px-12 py-6"
                     }
         `}
